@@ -18,7 +18,7 @@ function SearchForm() {
 		e.preventDefault();
 		if (!keyword) return;
 		try {
-			const res = await fetch("http://localhost:5000/api/search", {
+			const res = await fetch("https://git-repo-search.onrender.com/api/search", {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
 				body: JSON.stringify({ keyword })
