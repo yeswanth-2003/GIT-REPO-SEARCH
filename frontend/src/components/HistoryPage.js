@@ -8,7 +8,7 @@ function HistoryPage() {
   useEffect(() => {
     const fetchHistory = async () => {
       try {
-  const res = await fetch("https://git-repo-search.onrender.com/api/results");
+  const res = await fetch("https://git-repo-search-1.onrender.com/api/results");
         const data = await res.json();
         setHistory(data);
       } catch (error) {
