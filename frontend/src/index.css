@@ -65,8 +65,7 @@ code {
       justify-content: flex-start;
     }
     h1 {
-      font-size: 2rem !important;
-      text-align: center !important;
+      font-size: 2rem !important;      text-align: center !important;
       margin-bottom: 18px !important;
       max-width: 95vw;
       white-space: nowrap;

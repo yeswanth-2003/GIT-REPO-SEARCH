@@ -63,7 +63,7 @@ Update API URLs in frontend to match your deployed backend.
 
 ## Live Demo
 - Backend: [Render Link](https://git-repo-search-1.onrender.com)
-- Frontend: [Vercel Link](https://git-repo-search-frontend.vercel.app)
+- Frontend: [Vercel Link](https://git-repo-search-five.vercel.app/)
 
 ## Folder Structure
 ```
