@@ -44,3 +44,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+  @media (max-width: 600px) {
+    body {
+      min-height: 100vh;
+      width: 100vw;
+      box-sizing: border-box;
+      padding: 0 2px;
+      background-color: #0d1117;
+      color: #c9d1d9;
+    }
+    #root {
+      min-height: 100vh;
+      width: 100vw;
+      box-sizing: border-box;
+      padding: 0 2px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    h1 {
+      font-size: 2rem !important;
+      text-align: center !important;
+      margin-bottom: 18px !important;
+      max-width: 95vw;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    h2 {
+      font-size: 1.4rem !important;
+      margin-bottom: 14px !important;
+    }
+    h3 {
+      font-size: 1.15rem !important;
+      margin-bottom: 12px !important;
+    }
+    p, label, input, button, li, span, div {
+      font-size: 1.15rem !important;
+      line-height: 1.7 !important;
+    }
+    .card, .input-group {
+      padding: 12px 4px !important;
+      border-radius: 12px !important;
+    }
+  }
